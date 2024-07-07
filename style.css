@@ -28,6 +28,10 @@ input, select, button {
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+#amount {
+    max-width: 100%; /* Ensure the input field doesn’t exceed the container’s width */
+    padding: 8px; /* Adjust padding if needed for better aesthetics */
+}
 
 button {
     background-color: #007bff;
